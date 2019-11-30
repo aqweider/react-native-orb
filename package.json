@@ -1,0 +1,50 @@
+{
+  "name": "basket-framework",
+  "main": "src/index.js",
+  "version": "1.0.0",
+  "files": [
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/galio-org/galio/issues"
+  },
+  "homepage": "",
+  "keywords": [
+    "android",
+    "ios",
+    "react native",
+    "component library"
+  ],
+  "scripts": {
+    "precommit": "yarn lint",
+    "lint": "eslint src/**.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "hoist-non-react-statics": "^3.3.1",
+    "lodash": "^4.17.15",
+    "react-native-vector-icons": "^6.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-universe": "^1.0.7",
+    "prettier": "^1.15.1",
+    "prop-types": "^15.7.2",
+    "react": "16.12.0",
+    "react-native": "^0.61"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-vector-icons": ">6.0.0"
+  },
+  "eslintConfig": {
+    "extends": "universe/native"
+  }
+}

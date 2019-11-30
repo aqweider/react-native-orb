@@ -1,0 +1,6 @@
+assets/
+
+.babelrc
+.eslintrc
+.prettierrc
+.watchmanconfig
