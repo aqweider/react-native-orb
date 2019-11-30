@@ -1,5 +1,5 @@
 {
-  "name": "basket-framework",
+  "name": "orb-framework",
   "main": "src/index.js",
   "version": "1.0.0",
   "files": [
@@ -7,12 +7,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/aqweider/react-native-orb"
   },
-  "author": "",
+  "author": "Attallah Qweider",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/galio-org/galio/issues"
+    "url": "https://github.com/aqweider/react-native-orb/issues"
   },
   "homepage": "",
   "keywords": [
