@@ -13,21 +13,18 @@ module.exports = {
   },
   // Style
   get Colors() {
-    return require('./style').Colors;
+    return require('./styles').Colors;
   },
   get BorderRadiuses() {
-    return require('./style').BorderRadiuses;
+    return require('./styles').BorderRadiuses;
   },
   get Spacings() {
-    return require('./style').Spacings;
-  },
-  get Components() {
-    return require('./style').Components;
+    return require('./styles').Spacings;
   },
   get ThemeManager() {
-    return require('./style').ThemeManager;
+    return require('./styles').ThemeManager;
   },
   get Typography() {
-    return require('./style').Typography;
+    return require('./styles').Typography;
   },
 };

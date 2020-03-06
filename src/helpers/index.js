@@ -1,5 +1,3 @@
-module.exports = {
-  get Constants() {
-    return require('./constants').default;
-  },
-};
+import Constants from './constants';
+
+export { Constants };

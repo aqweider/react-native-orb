@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { Typography, Colors, BorderRadiuses, Spacings, ThemeManager } from '../style';
+import { Typography, Colors, BorderRadiuses, Spacings, ThemeManager } from '../styles';
 
 export const FLEX_KEY_PATTERN = /^flex(G|S)?(-\d*)?$/;
 export const PADDING_KEY_PATTERN = new RegExp(
@@ -169,12 +169,6 @@ export function extractFlexStyle(props) {
   }
 }
 
-export function extractAccessibilityProps(props = this.props) {
-  return _.pickBy(props, (value, key) => {
-    return /.*access.*/.test(key);
-  });
-}
-
 export function extractBorderRadiusValue(props) {
   let borderRadius;
 
@@ -192,7 +186,7 @@ export function extractModifierProps(props) {
     FLEX_KEY_PATTERN,
     PADDING_KEY_PATTERN,
     MARGIN_KEY_PATTERN,
-    ALIGNMENT_KEY_PATTERN
+    ALIGNMENT_KEY_PATTERN,
   ];
   const modifierProps = _.pickBy(props, (value, key) => {
     const isModifier = _.find(patterns, pattern => pattern.test(key));
